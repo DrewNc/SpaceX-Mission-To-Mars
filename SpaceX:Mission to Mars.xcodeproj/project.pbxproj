@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88742C0D201BBAEF000E99D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88742C0C201BBAEF000E99D8 /* AppDelegate.swift */; };
+		88742C0F201BBAEF000E99D8 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 88742C0E201BBAEF000E99D8 /* GameScene.sks */; };
+		88742C11201BBAEF000E99D8 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 88742C10201BBAEF000E99D8 /* Actions.sks */; };
+		88742C13201BBAEF000E99D8 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88742C12201BBAEF000E99D8 /* GameScene.swift */; };
+		88742C15201BBAEF000E99D8 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88742C14201BBAEF000E99D8 /* GameViewController.swift */; };
+		88742C18201BBAEF000E99D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88742C16201BBAEF000E99D8 /* Main.storyboard */; };
+		88742C1A201BBAEF000E99D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88742C19201BBAEF000E99D8 /* Assets.xcassets */; };
+		88742C1D201BBAEF000E99D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88742C1B201BBAEF000E99D8 /* LaunchScreen.storyboard */; };
+		88742C28201BBAF0000E99D8 /* SpaceX_Mission_to_MarsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88742C27201BBAF0000E99D8 /* SpaceX_Mission_to_MarsTests.swift */; };
+		88742C33201BBAF0000E99D8 /* SpaceX_Mission_to_MarsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88742C32201BBAF0000E99D8 /* SpaceX_Mission_to_MarsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88742C24201BBAF0000E99D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88742C01201BBAEF000E99D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88742C08201BBAEF000E99D8;
+			remoteInfo = "SpaceX:Mission to Mars";
+		};
+		88742C2F201BBAF0000E99D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88742C01201BBAEF000E99D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88742C08201BBAEF000E99D8;
+			remoteInfo = "SpaceX:Mission to Mars";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		88742C09201BBAEF000E99D8 /* SpaceX:Mission to Mars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SpaceX:Mission to Mars.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88742C0C201BBAEF000E99D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		88742C0E201BBAEF000E99D8 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		88742C10201BBAEF000E99D8 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		88742C12201BBAEF000E99D8 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		88742C14201BBAEF000E99D8 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		88742C17201BBAEF000E99D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88742C19201BBAEF000E99D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88742C1C201BBAEF000E99D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		88742C1E201BBAEF000E99D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88742C23201BBAF0000E99D8 /* SpaceX:Mission to MarsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SpaceX:Mission to MarsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88742C27201BBAF0000E99D8 /* SpaceX_Mission_to_MarsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceX_Mission_to_MarsTests.swift; sourceTree = "<group>"; };
+		88742C29201BBAF0000E99D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88742C2E201BBAF0000E99D8 /* SpaceX:Mission to MarsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SpaceX:Mission to MarsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88742C32201BBAF0000E99D8 /* SpaceX_Mission_to_MarsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceX_Mission_to_MarsUITests.swift; sourceTree = "<group>"; };
+		88742C34201BBAF0000E99D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88742C06201BBAEF000E99D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88742C20201BBAF0000E99D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88742C2B201BBAF0000E99D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88742C00201BBAEF000E99D8 = {
+			isa = PBXGroup;
+			children = (
+				88742C0B201BBAEF000E99D8 /* SpaceX:Mission to Mars */,
+				88742C26201BBAF0000E99D8 /* SpaceX:Mission to MarsTests */,
+				88742C31201BBAF0000E99D8 /* SpaceX:Mission to MarsUITests */,
+				88742C0A201BBAEF000E99D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88742C0A201BBAEF000E99D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88742C09201BBAEF000E99D8 /* SpaceX:Mission to Mars.app */,
+				88742C23201BBAF0000E99D8 /* SpaceX:Mission to MarsTests.xctest */,
+				88742C2E201BBAF0000E99D8 /* SpaceX:Mission to MarsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88742C0B201BBAEF000E99D8 /* SpaceX:Mission to Mars */ = {
+			isa = PBXGroup;
+			children = (
+				88742C0C201BBAEF000E99D8 /* AppDelegate.swift */,
+				88742C0E201BBAEF000E99D8 /* GameScene.sks */,
+				88742C10201BBAEF000E99D8 /* Actions.sks */,
+				88742C12201BBAEF000E99D8 /* GameScene.swift */,
+				88742C14201BBAEF000E99D8 /* GameViewController.swift */,
+				88742C16201BBAEF000E99D8 /* Main.storyboard */,
+				88742C19201BBAEF000E99D8 /* Assets.xcassets */,
+				88742C1B201BBAEF000E99D8 /* LaunchScreen.storyboard */,
+				88742C1E201BBAEF000E99D8 /* Info.plist */,
+			);
+			path = "SpaceX:Mission to Mars";
+			sourceTree = "<group>";
+		};
+		88742C26201BBAF0000E99D8 /* SpaceX:Mission to MarsTests */ = {
+			isa = PBXGroup;
+			children = (
+				88742C27201BBAF0000E99D8 /* SpaceX_Mission_to_MarsTests.swift */,
+				88742C29201BBAF0000E99D8 /* Info.plist */,
+			);
+			path = "SpaceX:Mission to MarsTests";
+			sourceTree = "<group>";
+		};
+		88742C31201BBAF0000E99D8 /* SpaceX:Mission to MarsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				88742C32201BBAF0000E99D8 /* SpaceX_Mission_to_MarsUITests.swift */,
+				88742C34201BBAF0000E99D8 /* Info.plist */,
+			);
+			path = "SpaceX:Mission to MarsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88742C08201BBAEF000E99D8 /* SpaceX:Mission to Mars */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88742C37201BBAF0000E99D8 /* Build configuration list for PBXNativeTarget "SpaceX:Mission to Mars" */;
+			buildPhases = (
+				88742C05201BBAEF000E99D8 /* Sources */,
+				88742C06201BBAEF000E99D8 /* Frameworks */,
+				88742C07201BBAEF000E99D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SpaceX:Mission to Mars";
+			productName = "SpaceX:Mission to Mars";
+			productReference = 88742C09201BBAEF000E99D8 /* SpaceX:Mission to Mars.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88742C22201BBAF0000E99D8 /* SpaceX:Mission to MarsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88742C3A201BBAF0000E99D8 /* Build configuration list for PBXNativeTarget "SpaceX:Mission to MarsTests" */;
+			buildPhases = (
+				88742C1F201BBAF0000E99D8 /* Sources */,
+				88742C20201BBAF0000E99D8 /* Frameworks */,
+				88742C21201BBAF0000E99D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88742C25201BBAF0000E99D8 /* PBXTargetDependency */,
+			);
+			name = "SpaceX:Mission to MarsTests";
+			productName = "SpaceX:Mission to MarsTests";
+			productReference = 88742C23201BBAF0000E99D8 /* SpaceX:Mission to MarsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		88742C2D201BBAF0000E99D8 /* SpaceX:Mission to MarsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88742C3D201BBAF0000E99D8 /* Build configuration list for PBXNativeTarget "SpaceX:Mission to MarsUITests" */;
+			buildPhases = (
+				88742C2A201BBAF0000E99D8 /* Sources */,
+				88742C2B201BBAF0000E99D8 /* Frameworks */,
+				88742C2C201BBAF0000E99D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88742C30201BBAF0000E99D8 /* PBXTargetDependency */,
+			);
+			name = "SpaceX:Mission to MarsUITests";
+			productName = "SpaceX:Mission to MarsUITests";
+			productReference = 88742C2E201BBAF0000E99D8 /* SpaceX:Mission to MarsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88742C01201BBAEF000E99D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Andrew ramos";
+				TargetAttributes = {
+					88742C08201BBAEF000E99D8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					88742C22201BBAF0000E99D8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 88742C08201BBAEF000E99D8;
+					};
+					88742C2D201BBAF0000E99D8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 88742C08201BBAEF000E99D8;
+					};
+				};
+			};
+			buildConfigurationList = 88742C04201BBAEF000E99D8 /* Build configuration list for PBXProject "SpaceX:Mission to Mars" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88742C00201BBAEF000E99D8;
+			productRefGroup = 88742C0A201BBAEF000E99D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88742C08201BBAEF000E99D8 /* SpaceX:Mission to Mars */,
+				88742C22201BBAF0000E99D8 /* SpaceX:Mission to MarsTests */,
+				88742C2D201BBAF0000E99D8 /* SpaceX:Mission to MarsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88742C07201BBAEF000E99D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88742C18201BBAEF000E99D8 /* Main.storyboard in Resources */,
+				88742C0F201BBAEF000E99D8 /* GameScene.sks in Resources */,
+				88742C1A201BBAEF000E99D8 /* Assets.xcassets in Resources */,
+				88742C1D201BBAEF000E99D8 /* LaunchScreen.storyboard in Resources */,
+				88742C11201BBAEF000E99D8 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88742C21201BBAF0000E99D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88742C2C201BBAF0000E99D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88742C05201BBAEF000E99D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88742C13201BBAEF000E99D8 /* GameScene.swift in Sources */,
+				88742C15201BBAEF000E99D8 /* GameViewController.swift in Sources */,
+				88742C0D201BBAEF000E99D8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88742C1F201BBAF0000E99D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88742C28201BBAF0000E99D8 /* SpaceX_Mission_to_MarsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88742C2A201BBAF0000E99D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88742C33201BBAF0000E99D8 /* SpaceX_Mission_to_MarsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88742C25201BBAF0000E99D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88742C08201BBAEF000E99D8 /* SpaceX:Mission to Mars */;
+			targetProxy = 88742C24201BBAF0000E99D8 /* PBXContainerItemProxy */;
+		};
+		88742C30201BBAF0000E99D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88742C08201BBAEF000E99D8 /* SpaceX:Mission to Mars */;
+			targetProxy = 88742C2F201BBAF0000E99D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		88742C16201BBAEF000E99D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88742C17201BBAEF000E99D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		88742C1B201BBAEF000E99D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88742C1C201BBAEF000E99D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88742C35201BBAF0000E99D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		88742C36201BBAF0000E99D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88742C38201BBAF0000E99D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SpaceX:Mission to Mars/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Drews.SpaceX-Mission-to-Mars";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88742C39201BBAF0000E99D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SpaceX:Mission to Mars/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Drews.SpaceX-Mission-to-Mars";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		88742C3B201BBAF0000E99D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SpaceX:Mission to MarsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Drews.SpaceX-Mission-to-MarsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpaceX:Mission to Mars.app/SpaceX:Mission to Mars";
+			};
+			name = Debug;
+		};
+		88742C3C201BBAF0000E99D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SpaceX:Mission to MarsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Drews.SpaceX-Mission-to-MarsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpaceX:Mission to Mars.app/SpaceX:Mission to Mars";
+			};
+			name = Release;
+		};
+		88742C3E201BBAF0000E99D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SpaceX:Mission to MarsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Drews.SpaceX-Mission-to-MarsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SpaceX:Mission to Mars";
+			};
+			name = Debug;
+		};
+		88742C3F201BBAF0000E99D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SpaceX:Mission to MarsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Drews.SpaceX-Mission-to-MarsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SpaceX:Mission to Mars";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88742C04201BBAEF000E99D8 /* Build configuration list for PBXProject "SpaceX:Mission to Mars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88742C35201BBAF0000E99D8 /* Debug */,
+				88742C36201BBAF0000E99D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88742C37201BBAF0000E99D8 /* Build configuration list for PBXNativeTarget "SpaceX:Mission to Mars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88742C38201BBAF0000E99D8 /* Debug */,
+				88742C39201BBAF0000E99D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88742C3A201BBAF0000E99D8 /* Build configuration list for PBXNativeTarget "SpaceX:Mission to MarsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88742C3B201BBAF0000E99D8 /* Debug */,
+				88742C3C201BBAF0000E99D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88742C3D201BBAF0000E99D8 /* Build configuration list for PBXNativeTarget "SpaceX:Mission to MarsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88742C3E201BBAF0000E99D8 /* Debug */,
+				88742C3F201BBAF0000E99D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88742C01201BBAEF000E99D8 /* Project object */;
+}
